@@ -30,8 +30,6 @@ public class DFReader {
 
     private static final String CONFIG = "config/example-ignite.xml";
 
-    private static final String CACHE_NAME = "sharedDF";
-
     public static void main(String args[]) {
         Ignite ignite = Ignition.start(CONFIG);
 
